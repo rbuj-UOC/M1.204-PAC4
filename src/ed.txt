@@ -1,0 +1,14 @@
+diccionari alumnes[k][v1,v2]
+alumnes[k]=idAlumne: id alumne
+alumnes[k, v1]= diccionari preferencies_grup
+alumnes[k, v2]= diccionari preferencies_optativa
+preferencies_grup[k]={primer, segon}
+preferencies_optativa[k]={primera, segona, tercera}
+
+assignacions_grup:= diccionari[k][v1]
+assignacions_grup[k]=k=idGrup
+assignacions_grup[k, v1]=llista idAlumne
+
+assignacions_optativa:= diccionari[k][v1]
+assignacions_optativa[k]=k=idOptativa
+assignacions_optativa[k, v1]=llista idAlumne
